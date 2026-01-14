@@ -63,7 +63,7 @@ RECEIVER_INFO_DIR=/opt/twelite-packet-sender
 # Specify Alert threshold milliseconds.
 #
 
-ALERT_TH_MS=600000
+ALERT_TH_MS=1000000
 
 
 #
