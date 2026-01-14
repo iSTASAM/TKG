@@ -63,7 +63,7 @@ RECEIVER_INFO_DIR=/opt/twelite-packet-sender
 # Specify Alert threshold milliseconds.
 #
 
-ALERT_TH_MS=1000000
+ALERT_TH_MS=1200000
 
 
 #
@@ -78,3 +78,5 @@ REBOOT_FILE_PATH=/opt/twelite-packet-sender/reboot.sh
 #
 
 REPLY_SEND=true
+
+# First update
