@@ -1,2 +1,2 @@
 #!/bin/sh
-reboot
+systemctl restart twelite-packet-sender
