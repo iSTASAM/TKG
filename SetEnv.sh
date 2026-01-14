@@ -27,7 +27,7 @@ SERIAL_BPS=115200
 # Specify the Path setting for Java Home and Jar file.
 #
 
-JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+JAVA_HOME=/usr/lib/jvm/java-11-openjdk-armhf
 JAR_NAME=/opt/twelite-packet-sender/twelite-packet-sender-2.3.2.jar
 
 #
