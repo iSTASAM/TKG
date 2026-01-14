@@ -1,0 +1,12 @@
+[Unit]
+Description=iXacs Twelite Packet Sender
+After=network-online.target
+
+[Service]
+User=root
+EnvironmentFile=/opt/twelite-packet-sender/SetEnv.sh
+ExecStart=/opt/twelite-packet-sender/TwelitePacketSender.sh
+ExecStop=/opt/twelite-packet-sender/Shutdown.sh > /dev/null 2>&1
+
+[Install]
+WantedBy=multi-user.target
